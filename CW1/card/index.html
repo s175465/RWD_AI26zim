@@ -16,18 +16,23 @@
 
   <main>
     <section class="cards" aria-label="Lista wydarzeń">
-      <a href="#" class="block">
-        <img src="img/wydarzenie-1.svg" alt="Ilustracja: koncert w sali kameralnej" class="h-64 w-full object-cover sm:h-80 lg:h-96"/>
-
-        <h3 class="mt-4 text-lg font-bold text-gray-900 sm:text-xl">Koncert</h3>
-
-        <p class="mt-2 max-w-sm text-gray-700">
-          <h2 class="card__title">Wieczór z muzyką filmową</h2>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="img/wydarzenie-1.svg" alt="Ilustracja: koncert w sali kameralnej">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Koncerty</div>
+          <p class="text-gray-700 text-base">
+            <p>Wieczór z muzyką filmową</p>
           <p class="card__meta"><time datetime="2026-10-17T19:00">17 października 2026, 19:00</time> · Sala Kameralna</p>
           <p>Orkiestra kameralna wykona fragmenty najsłynniejszych ścieżek dźwiękowych.</p>
           <a class="card__link" href="#">Szczegóły i bilety</a>
-        </p>
-      </a>
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+        </div>
+      </div>
       <article class="card">
         <img src="img/wydarzenie-1.svg" alt="Ilustracja: koncert w sali kameralnej" width="600" height="400">
         <div class="card__body">
